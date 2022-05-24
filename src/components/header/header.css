@@ -25,7 +25,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 0rem; */
     position: absolute;
     left: 0;
     bottom: 4rem;
@@ -37,7 +36,8 @@ header{
 /* ANCHOR: image */
 
 .me {
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--color-primary) 10px), repeating-linear-gradient(var(--color-primary), transparent);    width: 22rem;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--color-primary) 10px), repeating-linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
@@ -51,17 +51,8 @@ header{
 /* ANCHOR: MEDIA QUERIES========= MD ========= */
 
 @media (max-width: 1024px) {
-    /* header{
-        height: 67vh;
-    } */
-    .me{
-        bottom: 0;
-        padding-top: 10rem;
-        margin-top: 4rem;
-    }
-    .me img{
-        height: 120%;
-    }
+    
+    
 }
 
 
@@ -72,7 +63,5 @@ header{
     .header__socials {
             display: none;
     }
-    .me img {
-        height: 130%;
-    }
+    
 }
