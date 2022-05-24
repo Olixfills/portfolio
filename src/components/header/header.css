@@ -25,6 +25,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
     position: absolute;
     left: 0;
     bottom: 4rem;
@@ -61,7 +62,7 @@ header{
             top: 12rem;
     }
     header {
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
     
 }
