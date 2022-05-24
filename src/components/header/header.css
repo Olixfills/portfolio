@@ -36,22 +36,35 @@ header{
 
 /* ANCHOR: image */
 
-.me{
-    /* background: var(--color-primary); */
-    width: 18rem;
+.me {
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--color-primary) 10px), repeating-linear-gradient(var(--color-primary), transparent);    width: 22rem;
     height: 30rem;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--color-primary) 10px), repeating-linear-gradient(var(--color-primary), transparent);
-    padding:1rem 0 0 0;
     overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+/* ANCHOR: MEDIA QUERIES========= MD ========= */
+
+@media (max-width: 1024px) {
     
 }
 
-.me img{
-    height: 100%;
-}
 
+
+
+/* ANCHOR: MEDIA QUERIES========= SM ========= */
+
+@media (max-width: 520px) {
+    .container {
+        width: var(--width-container-sm);
+    }
+
+    section>h2 {
+        margin-bottom: 2rem;
+    }
+}
