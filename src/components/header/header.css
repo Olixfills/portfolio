@@ -59,7 +59,10 @@ header{
 @media (max-width: 1024px) {
     .me img {
             top: 12rem;
-        }
+    }
+    header {
+        padding-top: 5rem;
+    }
     
 }
 
