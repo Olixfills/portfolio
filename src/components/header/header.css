@@ -68,7 +68,7 @@ header{
         /* height: 68vh; */
         padding-top: 4rem;
     }
-        img {
+    .me img {
             height: 80%;
             position: absolute;
             bottom: 0;
@@ -86,7 +86,7 @@ header{
     .header__socials {
         display: none;
     }
-    img{
+    .me img{
         height: 100%;
         position: absolute;
         bottom: 0;

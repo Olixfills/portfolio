@@ -9,23 +9,25 @@ import { TiMessageTyping } from "react-icons/ti";
 
 const Navbar = () => {
   return (
-    <nav>
-      <a href="#">
-        <SiHomebridge />
-      </a>
-      <a href="#about">
-        <FaUserSecret />
-      </a>
-      <a href="#experience">
-        <BiBookReader />
-      </a>
-      <a href="#portfolio">
-        <GiFireworkRocket />
-      </a>
-      <a href="#contact">
-        <TiMessageTyping />
-      </a>
-    </nav>
+    <div className="nav__cont">
+      <nav>
+        <a href="#">
+          <SiHomebridge />
+        </a>
+        <a href="#about">
+          <FaUserSecret />
+        </a>
+        <a href="#experience">
+          <BiBookReader />
+        </a>
+        <a href="#portfolio">
+          <GiFireworkRocket />
+        </a>
+        <a href="#contact">
+          <TiMessageTyping />
+        </a>
+      </nav>
+    </div>
   );
 };
 
