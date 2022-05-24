@@ -51,20 +51,25 @@ header{
 /* ANCHOR: MEDIA QUERIES========= MD ========= */
 
 @media (max-width: 1024px) {
-    
+    .me{
+        bottom: 0;
+        padding-top: 10rem;
+        margin-top: 6rem;
+    }
+    .me img{
+        height: 120%;
+    }
 }
-
 
 
 
 /* ANCHOR: MEDIA QUERIES========= SM ========= */
 
 @media (max-width: 520px) {
-    .container {
-        width: var(--width-container-sm);
+    .header__socials {
+            display: none;
     }
-
-    section>h2 {
-        margin-bottom: 2rem;
+    .me img {
+        height: 130%;
     }
 }
