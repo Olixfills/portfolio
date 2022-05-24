@@ -1,0 +1,57 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ANCHOR: CTA */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+/* ANCHOR: Socials */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 0rem; */
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+.header__socials>a{
+    font-size: 3rem;
+}
+
+/* ANCHOR: image */
+
+.me{
+    /* background: var(--color-primary); */
+    width: 18rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--color-primary) 10px), repeating-linear-gradient(var(--color-primary), transparent);
+    padding:1rem 0 0 0;
+    overflow: hidden;
+    
+}
+
+.me img{
+    height: 100%;
+}
+
