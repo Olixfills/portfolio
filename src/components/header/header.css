@@ -28,7 +28,7 @@ header{
     /* gap: 0rem; */
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 4rem;
 }
 .header__socials>a{
     font-size: 3rem;
@@ -51,9 +51,13 @@ header{
 /* ANCHOR: MEDIA QUERIES========= MD ========= */
 
 @media (max-width: 1024px) {
+    /* header{
+        height: 67vh;
+    } */
     .me{
-        bottom: 0;
+        bottom: 4rem;
         padding-top: 10rem;
+        margin-top: 4rem;
     }
     .me img{
         height: 120%;
