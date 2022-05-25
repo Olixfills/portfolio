@@ -1,10 +1,16 @@
 import React from "react";
 import "./about.css";
 import Me from "../../assets/olix-headshot.png";
+import { FaUserSecret } from "react-icons/fa";
 
 const About = () => {
   return (
     <section id="about">
+      <div className="about__icon">
+        <div className="icon__circle">
+          <FaUserSecret />
+        </div>
+      </div>
       <h5>A little about me..</h5>
       <h2>Meet Ola Oni</h2>
       <div className="container about__container">

@@ -1,0 +1,15 @@
+.about__icon{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__circle{
+    width: max-content;
+    background-color: var(--color-bg-variant);
+    padding: 0.5rem;
+    border-radius: 10rem;
+}
