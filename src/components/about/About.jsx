@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
 import Me from "../../assets/olix-headshot.png";
-import { FaUserSecret } from "react-icons/fa";
+import { FaUserSecret, FaAward, FaUsers } from "react-icons/fa";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -19,41 +20,39 @@ const About = () => {
             <img src={Me} alt="olix" />
           </div>
         </div>
-        <div className="about__desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sint hic
-          libero, voluptate eos culpa animi aspernatur? Dolor esse recusandae
-          saepe? Rem accusantium nulla assumenda, recusandae dolores unde est
-          explicabo. Necessitatibus, quos mollitia voluptate inventore sequi
-          impedit maiores ea repellendus officiis explicabo, architecto
-          reiciendis harum accusamus, nostrum soluta natus veniam ex. Neque
-          inventore necessitatibus iste culpa at, veniam commodi fugiat. Maxime
-          harum soluta architecto explicabo dolores! Reprehenderit dignissimos,
-          saepe similique aspernatur cupiditate facere nisi eaque adipisci in
-          nobis accusamus, porro illo vitae eius doloribus incidunt explicabo
-          necessitatibus temporibus esse molestias. Quae labore expedita ab
-          repellendus vero ut delectus assumenda fugiat nesciunt tempora
-          explicabo debitis obcaecati autem est quas quod alias esse dolorum et
-          sapiente ea itaque, accusantium sit aut. Ipsum? Sapiente repellendus
-          consequuntur doloribus expedita natus a ipsa perspiciatis laudantium
-          deleniti voluptates, molestiae nisi magnam impedit incidunt tenetur,
-          rerum nam placeat labore! Iusto id esse incidunt, quaerat quidem
-          aspernatur repudiandae? Officiis ea voluptatibus corrupti, optio nihil
-          itaque recusandae distinctio libero eius quasi rerum voluptates beatae
-          reiciendis magnam labore laborum dolor! Eligendi, consequatur deserunt
-          unde nam nobis dolorum illo minima enim! Nostrum, autem. Maiores fugit
-          optio ex aperiam voluptatum unde, aliquid alias pariatur? Molestias
-          repudiandae odit recusandae corrupti illo praesentium minus ipsum,
-          doloremque officiis, in molestiae dignissimos, blanditiis tempora
-          autem esse. Nihil fugiat, sapiente ad dignissimos dolorum animi vero
-          nesciunt dolore reiciendis ipsam expedita veritatis aut totam quaerat
-          nisi? Nihil quas alias beatae modi neque saepe provident explicabo
-          rerum corrupti facere. Quia beatae ab velit reiciendis tempora ipsa
-          vel et adipisci quisquam voluptatum, autem, sint incidunt doloremque
-          aliquid rerum, dignissimos provident. Odio esse quibusdam sint iusto
-          maxime exercitationem nihil laboriosam quidem. Animi eaque eius id?
-          Blanditiis autem debitis amet aut hic cum reiciendis quas illo!
-          Corporis placeat qui quas voluptas aliquid culpa atque architecto
-          voluptatem, veniam, exercitationem odit mollitia possimus quos.
+
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card one">
+              <FaAward className="about__card__icon" />
+              <h5>Experience</h5>
+              <small>1+ Years Working</small>
+            </article>
+
+            <article className="about__card two">
+              <FaUsers className="about__card__icon" />
+              <h5>Clients</h5>
+              <small>10+ satisfied</small>
+            </article>
+
+            <article className="about__card three">
+              <VscFolderLibrary className="about__card__icon" />
+              <h5>Projects</h5>
+              <small>10+ completed</small>
+            </article>
+          </div>
+
+          <p>
+            I am a front-end developer specializing in building exceptional
+            digital experiences. i am passionate about building excellent
+            software that improves the life of those around me. I love
+            travelling, food (eaiting and cooking😉), watching movies and
+            playing video games. Let's work together, it'll be a great
+            experience I'm sure
+          </p>
+          <a href="#contact" className="btn btn-primary about__btn ">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
