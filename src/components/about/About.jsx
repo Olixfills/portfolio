@@ -7,7 +7,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
-      <div className="about__icon">
+      <div className="section__icon">
         <div className="icon__circle">
           <FaUserSecret />
         </div>
@@ -43,12 +43,12 @@ const About = () => {
           </div>
 
           <p>
-            I am a front-end developer specializing in building exceptional
-            digital experiences. i am passionate about building excellent
-            software that improves the life of those around me. I love
-            travelling, food (eaiting and cooking😉), watching movies and
+            I am a front-end developer specializing in building exceptional and
+            responsive digital experiences. I am passionate about building
+            excellent software that improves the life of those around me. I love
+            travelling, I love food (eating and cooking😉), watching movies and
             playing video games. Let's work together, it'll be a great
-            experience I'm sure
+            experience I'm sure.
           </p>
           <a href="#contact" className="btn btn-primary about__btn ">
             Let's Talk
