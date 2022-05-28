@@ -1,0 +1,92 @@
+.container.contact__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option{
+    background: var(--color-bg-variant);
+    text-align: center;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: default;
+}
+.contact__option:hover{
+    background-color: var(--color-light);
+    border: 1px solid var(--color-primary-variant);
+    color: var(--color-bg-variant);
+}
+
+.contact__opt__icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.contact__option a{
+    font-size: 0.8rem;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+form>h5 {
+    color: var(--color-primary);
+}
+
+
+
+/* ANCHOR: MEDIA QUERIES========= MD ========= */
+
+@media (max-width: 1024px) {
+    .container.contact__container{
+        width: 95%;
+        grid-template-columns: 40% 55%;
+        gap: 5%;
+    }
+}
+
+
+
+/* ANCHOR: MEDIA QUERIES========= SM ========= */
+
+@media (max-width: 520px) {
+    .container.contact__container {
+            width: var(--width-container-sm);
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    form>h5{
+        margin: 1rem 0 0 0;
+        text-align: center;
+    }
+    form{
+        align-items: center;
+    }
+}
