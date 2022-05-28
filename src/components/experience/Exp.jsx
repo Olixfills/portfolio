@@ -16,9 +16,9 @@ const Exp = () => {
       <div className="container experience__container">
         <div className="exp__content">
           {skills.map((skill) => (
-            <article className="exp__details">
+            <article className="exp__details" key={skill.title}>
               {skill.icon}
-              <h4 style={{ wordWrap: "no-wrap" }}>{skill.title}</h4>
+              <h4>{skill.title}</h4>
               <small className="text-light">{skill.exp}</small>
             </article>
           ))}

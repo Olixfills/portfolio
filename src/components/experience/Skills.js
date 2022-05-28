@@ -1,5 +1,5 @@
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { FaCss3Alt } from "react-icons/fa";
+import { FaCss3Alt, FaGithubAlt } from "react-icons/fa";
 import {
   SiJavascript,
   SiTypescript,
@@ -29,6 +29,7 @@ export const skills = [
   { title: "MUI", icon: <SiMaterialui />, exp: "Intermediate" },
   { title: "React Query", icon: <Rquery />, exp: "Intermediate" },
   { title: "Redux", icon: <SiRedux />, exp: "Basic" },
+  { title: "Git", icon: <FaGithubAlt />, exp: "Basic" },
   { title: "Wordpress", icon: <SiWordpress />, exp: "Experienced" },
   { title: "Node JS", icon: <SiNodedotjs />, exp: "Intermediate" },
   { title: "Express", icon: <SiExpress />, exp: "Intermediate" },
