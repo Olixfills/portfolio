@@ -12,7 +12,6 @@ import {
   SiNodedotjs,
   SiExpress,
   SiMongodb,
-  SiPython,
 } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { ReactComponent as Rquery } from "../../assets/svg/react-query-seeklogo.com.svg";
@@ -34,5 +33,4 @@ export const skills = [
   { title: "Node JS", icon: <SiNodedotjs />, exp: "Intermediate" },
   { title: "Express", icon: <SiExpress />, exp: "Intermediate" },
   { title: "Mongo DB", icon: <SiMongodb />, exp: "Basic" },
-  { title: "Python", icon: <SiPython />, exp: "Basic" },
 ];

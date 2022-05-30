@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { TiMessageTyping } from "react-icons/ti";
 import "./contact.css";
 import { contactData } from "./contactData";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [sent, setSent] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,6 +19,10 @@ const Contact = () => {
     );
 
     e.target.reset();
+    setSent(true);
+    setTimeout(() => {
+      setSent(false);
+    }, 500);
   };
 
   return (
@@ -58,7 +63,12 @@ const Contact = () => {
             placeholder="Let me hear from you..."
             required
           ></textarea>
-          <button className="btn btn-primary">Send Message</button>
+          <button
+            className={`btn ${sent ? "" : "btn-primary"}`}
+            disabled={sent}
+          >
+            {sent ? "Sending..." : "Send Message"}
+          </button>
         </form>
       </div>
     </section>
