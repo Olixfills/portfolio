@@ -1,9 +1,9 @@
 import Dora from "../../assets/portfolio/dora.png";
-import Candy from "../../assets/portfolio/candy.png";
 import AutoMart from "../../assets/portfolio/automart.png";
-import Color from "../../assets/portfolio/colorgen.png";
 import Todos from "../../assets/portfolio/todo.png";
 import Meal from "../../assets/portfolio/mealfinder.png";
+import Packam from '../../assets/portfolio/packam.png'
+import Excite from '../../assets/portfolio/excite.png'
 
 export const data = [
   {
@@ -13,10 +13,16 @@ export const data = [
     demo: "https://olixfills.github.io/dora-akunyili/",
   },
   {
-    title: "Museum of Candy",
-    img: Candy,
-    git: "https://github.com/Olixfills/museumofcandy",
-    demo: "https://olixfills.github.io/museumofcandy/",
+    title: "Packam",
+    img: Packam,
+    git: "",
+    demo: "https://packam.com.ng/",
+  },
+  {
+    title: "Excite Panacea",
+    img: Excite,
+    git: "",
+    demo: "https://excitepanacea.com/",
   },
   {
     title: "Auto Mart",
@@ -24,12 +30,7 @@ export const data = [
     git: "https://github.com/Olixfills/automart",
     demo: "https://automartapp.netlify.app/",
   },
-  {
-    title: "Color Palette Generator",
-    img: Color,
-    git: "https://github.com/Olixfills/color-gen",
-    demo: "https://olixcolorgen.netlify.app/",
-  },
+  
   {
     title: "Todo App",
     img: Todos,
